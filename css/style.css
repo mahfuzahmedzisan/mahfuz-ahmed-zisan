@@ -114,6 +114,9 @@ nav .menu {
 
 .banner-section{
     background-color: #1f3e4a;
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 .banner-container{
