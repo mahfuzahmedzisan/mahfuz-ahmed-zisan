@@ -31,12 +31,14 @@ a {
     margin: 0 auto;
 }
 
-
+img{
+    width: 100%;
+}
 
 /* Header Section  */
 
 .header {
-    background-color: #264653dd;
+    background-color: #274c5bdd;
     position: fixed;
     width: 100%;
 }
@@ -55,11 +57,11 @@ a {
 }
 
 .logo h2 span{
-    color: var(--color-orange);
+    color: #E76F51;
 }
 
 .logo h2:hover{
-    color: var(--color-orange);
+    color: #E76F51;
 }
 
 nav .menu {
@@ -91,4 +93,44 @@ nav .menu {
 .header-container .open-menu-btn,
 .header-container .close-menu-btn{
     display: none;
+}
+
+
+/* Banner Section  */
+
+.banner-section{
+    background-color: #1f3e4a;
+}
+
+.banner-container{
+    padding: 90px 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    color: #fff;
+}
+
+.banner-content h2{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 1px;
+    padding: 15px;
+}
+
+.banner-content h3{
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.banner-content h3 span{
+    color: #E76F51;
+}
+
+.banner-img{
+    width: 400px;
+    border-radius: 50%;
+    overflow: hidden;
 }
