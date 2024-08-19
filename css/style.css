@@ -227,8 +227,8 @@ nav .menu {
 
 .project-cards .card{
     width: 300px;
-    background-color: #f0f0f0;
-    padding: 10px;
+    background: linear-gradient(180deg, #e76f51b3 0%, #e76e501a 100%);
+    padding: 15px;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     position: relative;
@@ -251,12 +251,12 @@ nav .menu {
     bottom: 0;
     left: 0;
     text-align: center;
-    color: #000;
-    font-weight: 400;
-    font-size: 16px;
+    color: #1f3e4a;
+    font-weight: 600;
+    font-size: 18px;
     line-height: 28px;
     letter-spacing: 1px;
-    background: linear-gradient(180deg, #6565657b 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(180deg, rgba(251, 247, 140, 0.5) 0%, #e76e501a 100%);
     max-height: 0;
     overflow: hidden;
 }
@@ -266,7 +266,7 @@ nav .menu {
 }
 
 .project-cards .card:hover p{
-    padding: 25% 0 50%;
+    padding: 20% 0 30%;
 }
 
 .project-container .more{
