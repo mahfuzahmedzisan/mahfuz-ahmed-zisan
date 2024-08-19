@@ -21,6 +21,8 @@
     --color-dark-blue: #252B42;
     --color-black: #0A0826;
     --color-dark-black: #0B0D17;
+    --color-new: #FBF78C;
+    --color-new-2: #1C1D0F;
 }
 
 a {
@@ -43,7 +45,7 @@ img{
 .tittle h2{
     display: inline-block;
     color: #E76F51;
-    padding: 20px 0 2px;
+    padding-bottom: 2px;
     border-bottom: 2px solid #E76F51;
     font-size: 25px;
 }
@@ -51,7 +53,7 @@ img{
 /* Header Section  */
 
 .header {
-    background-color: #274c5bdd;
+    background-color: #1c1d0fcc;
     position: fixed;
     width: 100%;
     z-index: 1000;
@@ -113,7 +115,7 @@ nav .menu {
 /* Banner Section  */
 
 .banner-section{
-    background-color: #1f3e4a;
+    background-color: #1C1D0F;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -208,7 +210,7 @@ nav .menu {
 /* Projects Section  */
 
 .project-section{
-    padding: 40px 0;
+    padding: 50px 0;
 }
 
 .project-container .tittle{
@@ -216,6 +218,7 @@ nav .menu {
 }
 
 .project-cards{
+    padding: 40px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -227,6 +230,7 @@ nav .menu {
     background-color: #f0f0f0;
     padding: 10px;
     border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     position: relative;
 }
 
@@ -243,6 +247,7 @@ nav .menu {
 
 .project-cards .card p{
     position: absolute;
+    width: 100%;
     bottom: 0;
     left: 0;
     text-align: center;
@@ -261,8 +266,7 @@ nav .menu {
 }
 
 .project-cards .card:hover p{
-    padding: 60px 0;
-    max-height: fit-content;
+    padding: 25% 0 50%;
 }
 
 .project-container .more{
@@ -285,4 +289,103 @@ nav .menu {
     border-color: #E76F51;
     color: #E76F51;
     background-color: transparent;
+}
+
+/* Service Section  */
+
+.service-section{
+    padding: 50px 0;
+}
+
+.service-container .tittle h2 i{
+    padding-left: 10px;
+}
+
+.service-container .tittle p{
+    padding: 10px 0;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: #1f3e4a;
+}
+
+.service-cards{
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+.service-cards .card{
+    width: 320px;
+    padding: 20px 20px 80px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: linear-gradient(180deg, #e76e5033 0%, #1d1e1033 100%);
+    position: relative;
+}
+
+.service-cards .card i{
+    padding: 10px;
+    border: 2px solid #E76F51;
+    color: #1f3e4a;
+    border-radius: 50%;
+}
+
+.service-cards .card h3{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 0;
+    color: #1C1D0F;
+}
+
+.service-cards .card p{
+    color: #1f3e4a;
+    line-height: 28px;
+    text-align: justify;
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.service-cards .card .more{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    padding: 20px;
+}
+
+.service-cards .card a{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+    background-color: #E76F51;
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+.service-cards .card a i{
+    border: none;
+    color: #fff;
+    padding: 0 0 0 10px;
+}
+
+.service-cards .card:hover{
+    background: linear-gradient(180deg, #e76e5066 0%, #1d1e1033 100%);
+}
+
+.service-cards .card:hover a:hover{
+    background-color: transparent;
+    border-color: #E76F51;
+    color: #E76F51;
+}
+
+.service-cards .card:hover a:hover i{
+    color: #E76F51;
 }
