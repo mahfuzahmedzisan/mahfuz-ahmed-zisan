@@ -1,0 +1,58 @@
+@media only screen and (max-width:1024px) {}
+
+@media only screen and (max-width:992px) {
+    .container {
+        max-width: 95%;
+    }
+
+    header .nav-menu {
+        left: 0;
+        top: 100%;
+        width: 100%;
+        height: calc(100vh - 95px);
+        background-color: var(--tj-theme-secondary);
+        gap: 1.2rem;
+        padding: 2rem;
+        padding: 5vmin 15vmin;
+        transform: scaleY(0);
+        position: absolute;
+        transform-origin: top;
+        transition: transform 0.3s ease-in-out;
+        z-index: 99;
+        overflow: auto;
+        align-items: flex-start;
+    }
+    header .nav-menu .nav-link a {
+        font-size: 1.3rem;
+      }
+
+    header .nav-menu.active {
+        animation: navMenu 0.3s ease-in-out forwards;
+    }
+
+    @keyframes navMenu {
+        0% {
+            transform: scaleY(0);
+        }
+
+        100% {
+            transform: scaleY(1);
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width:576px) {
+    .btn-primary {
+        padding: 12px 20px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    header .nav-btn-group span {
+        height: 2px;
+    }
+}
+
+@media only screen and (max-width:480px) {}

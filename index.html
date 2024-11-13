@@ -1,149 +1,541 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mahfuz Ahmed</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mahfuz Ahmed</title>
 
-    <!-- Custom Link  -->
-     <link rel="stylesheet" href="css/style.css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+  <!-- Bootstrap CSS v5.3.0 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+  <!-- Font Awesome 6.6.0 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="src/css/preloader.css">
+
+  <link rel="stylesheet" href="src/css/main.css" />
+
+  <link rel="stylesheet" href="src/css/responsive.css" />
+
+
 </head>
+
 <body>
-   
-    <!-- Header Section -->
-     <div class="header">
-        <div class="container header-container">
-            <div class="logo"><a href="index.html">
-                <h2><span>Mahfuz</span> Ahmed</h2>
-            </a></div>
-            <nav>
-                <ul class="menu">
-                    <li class="nav-item"><a href="#">Home</a></li>
-                    <li class="nav-item"><a href="#">About</a></li>
-                    <li class="nav-item"><a href="#">Projects</a></li>
-                    <!-- <li class="nav-item"><a href="#">Services</a></li>
-                    <li class="nav-item"><a href="#">Skills</a></li>
-                    <li class="nav-item"><a href="#">Contact</a></li> -->
-                </ul>
-            </nav>
-            <div class="open-menu-btn"><i class="fa-solid fa-bars"></i></div>
-            <div class="close-menu-btn"><i class="fa-solid fa-xmark"></i></div>
+
+  <!-- ===============  Start Preloader Section =============== -->
+  <div class="preloader">
+    <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
+      <path d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+    </svg>
+
+    <div class="preloader-heading">
+      <div class="load-text">
+        <span>M</span>
+        <span>A</span>
+        <span>H</span>
+        <span>F</span>
+        <span>U</span>
+        <span>Z</span>
+      </div>
+    </div>
+  </div>
+  <!-- ===============  End Preloader Section =============== -->
+
+  <!-- ===============  Start Scroll Top Section =============== -->
+  <div class="scroll-top">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="
+                      transition: stroke-dashoffset 10ms linear 0s;
+                      stroke-dasharray: 307.919px, 307.919px;
+                      stroke-dashoffset: 71.1186px;
+                  "></path>
+    </svg>
+    <div class="scroll-top-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24"
+        data-icon="mdi:arrow-up" class="iconify iconify--mdi">
+        <path fill="currentColor" d="M13 20h-2V8l-5.5 5.5l-1.42-1.42L12 4.16l7.92 7.92l-1.42 1.42L13 8v12Z">
+        </path>
+      </svg>
+    </div>
+  </div>
+  <!-- ===============  End Scroll Top Section =============== -->
+
+
+  <!-- ===============  Start Header Section =============== -->
+  <header>
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="logo">
+          <a href="#">Mahfuz Ahmed</a>
         </div>
-     </div>
+        <nav class="d-flex align-items-center flex-lg-row-reverse" style="gap: 25px">
+          <button class="btn-primary">Hire me!</button>
+          <button class="nav-btn-group d-lg-none">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span class="nav-line-4"></span>
+          </button>
+          <ul class="nav-menu d-flex flex-column flex-lg-row">
+            <li class="nav-link"><a href="#">Home</a></li>
+            <li class="nav-link"><a href="#">Project</a></li>
+            <li class="nav-link"><a href="#">skills</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
 
-     <!-- Banner Section  -->
+  <!-- ===============  End Header Section =============== -->
 
-     <div class="banner-section">
-        <div class="container banner-container">
-            <div class="banner-content">
-                <h3>Hello! I am</h3>
-                <h2>Mahfu Ahmed Zisan</h2>
-                <h3>I am a <span class="banner-typed-text">Web Developer</span></h3>
-            </div>
-            <div class="banner-img">
-                <img src="images/Person.jpg" alt="Banner Model">
-            </div>
+  <main>
+
+    <!-- =============== Hero Section =============== -->
+
+    <section class="hero-section">
+      <div class="d-flex align-items-center">
+        <div class="intro_text">
+          <svg viewBox="0 0 1320 300">
+            <text x="50%" Y="50%" text-anchor="middle">
+              MAHFUZ </text>
+          </svg>
         </div>
-     </div>
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <div class="hero-content-box">
 
-     <!-- About Section -->
+                <span class="hero-sub-title">I'm Mahfuz Ahmed</span>
 
-     <div id="about" class="about-section">
-        <div class="container about-container">
-            <div class="about-img">
-                <img src="images/person.png" alt="About Model">
-            </div>
-            <div class="about-content">
-                <div class="tittle">
-                    <h2>About Me</h2>
+                <h1 class="hero-title">Web Developer</h1>
+                <div class="hero-image-box d-md-none text-center mb-3">
+                  <img decoding="async" src="assets/hero_img.jpg" alt="ThemeJunction">
                 </div>
-                <p>I'm a creative and driven <span>Web Developer</span> with a passion for turning complex ideas into user-friendly solutions. My work is centered around innovation, efficiency, and attention to detail, ensuring that every project I undertake meets the highest standards.</p>
-                <div class="about-inner-content">
-                    <h3>My Expertise:</h3>
-                    <ol>
-                        <li><span>Skills:</span>Responsive Web Development, Full Stack Development.</li>
-                        <li><span>Programming Languages:</span> Proficient in JavaScript, Python, HTML, CSS, SQL.</li>
-                    </ol>
+
+                <p class="lead">I break down complex user experience problems to create integrity focussed
+                  solutions that
+                  connect billions of people</p>
+
+                <div class="button-box d-flex flex-wrap align-items-center">
+
+                  <a href="#" class="btn btn-secondary">
+                    Download CV <i aria-hidden="true" class="tj flaticon flaticon-download"></i> </a>
+
+
+                  <ul class="ul-reset social-icons">
+                    <li>
+                      <a href="#">
+                        <i aria-hidden="true" class="fa-brands fa-facebook-f"></i> </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i aria-hidden="true" class="fa-brands fa-linkedin-in"></i> </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i aria-hidden="true" class="fa-brands fa-github"></i> </a>
+                    </li>
+
+                  </ul>
                 </div>
-                <div class="about-inner-content">
-                    <h3>Passion Projects:</h3>
-                    <ol>
-                        <li>I’m always exploring ways to improve user experience.</li>
-                    </ol>
-                    <p>I believe that the best work comes from a balance of creativity and logic, and I’m committed to delivering results that not only meet expectations but exceed them.</p>
+              </div>
+            </div>
+            <div class="col-md-6 d-none d-md-block">
+
+              <div class="hero-image-box text-center">
+                <img decoding="async" src="assets/hero_img.jpg" alt="ThemeJunction">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="experience-content">
+        <div class="container">
+          <div class="row gy-5 align-items-center">
+            <div class="col-md-6 col-lg-3 d-flex justify-content-center d-md-block">
+              <div class="content">
+                <span class="number">14</span>
+                <div class="text">Years of <br> Experience</div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 d-flex justify-content-center d-md-block">
+              <div class="content">
+                <span class="number">50</span>
+                <div class="text">Project <br> Completed</div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 d-flex justify-content-center d-md-block">
+              <div class="content">
+                <span class="number">1.5K</span>
+
+                <div class="text">Happy <br> Clients</div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 d-flex justify-content-center d-md-block">
+              <div class="content">
+                <span class="number">14</span>
+                <div class="text">Years of <br> Experience</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============== End Hero Section =============== -->
+    <!-- =============== Start Services Section =============== -->
+    <section class="service-section">
+      <div class="section-header">
+        <h2 class="section-title">My Quality Services </h2>
+        <div class="desc">
+          <p>We put your ideas and thus your wishes in the form of a unique web project that inspires you and you
+            customers.</p>
+        </div>
+      </div>
+      <div class="service-container">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="services-widget position-relative">
+                <div class="service-item current d-flex flex-wrap align-items-center">
+                  <div class="left-box d-flex flex-wrap align-items-center">
+                    <span class="number">01</span>
+                    <h3 class="service-title">Web Development</h3>
+                  </div>
+                  <div class="right-box">
+                    <p>Conducting qualitative and quantitative research to understand user needs, behaviors, and
+                      pain points. Utilizing methods...</p>
+                  </div>
+                  <i class="fa-solid fa-arrow-right"></i>
+                  <a href="#" class="service-link"></a>
                 </div>
+                <div class="service-item d-flex flex-wrap align-items-center">
+                  <div class="left-box d-flex flex-wrap align-items-center">
+                    <span class="number">02</span>
+                    <h3 class="service-title">UI/UX Design</h3>
+                  </div>
+                  <div class="right-box">
+                    <p>Conducting qualitative and quantitative research to understand user needs, behaviors, and
+                      pain points. Utilizing methods...</p>
+                  </div>
+                  <i class="fa-solid fa-arrow-right"></i>
+                  <a href="#" class="service-link"></a>
+                </div>
+                <div class="service-item  d-flex flex-wrap align-items-center">
+                  <div class="left-box d-flex flex-wrap align-items-center">
+                    <span class="number">03</span>
+                    <h3 class="service-title">Content Writing</h3>
+                  </div>
+                  <div class="right-box">
+                    <p>Conducting qualitative and quantitative research to understand user needs, behaviors, and
+                      pain points. Utilizing methods...</p>
+                  </div>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <div class="service-item  d-flex flex-wrap align-items-center">
+                  <div class="left-box d-flex flex-wrap align-items-center">
+                    <span class="number">04</span>
+                    <h3 class="service-title">Digital Marketing</h3>
+                  </div>
+                  <div class="right-box">
+                    <p>Conducting qualitative and quantitative research to understand user needs, behaviors, and
+                      pain points. Utilizing methods...</p>
+                  </div>
+                  <i class="fa-solid fa-arrow-right"></i>
+                  <a href="#" class="service-link"></a>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-     </div>
+      </div>
+    </section>
+    <!-- =============== End Services Section =============== -->
+    <!-- =============== Start Portfolio Section =============== -->
+    <section class="project-section">
+      <div class="section-header">
+        <h2 class="section-title">
+          My Recent Works </h2>
+      </div>
+      <div class="container">
+        <div class="elementor-widget-container">
+          <div class="row">
+            <div class="col-12">
+              <div class="portfolio-filter text-center">
+                <div class="button-group filter-button-group">
+                  <button class="active" data-filter="*">All</button>
+                  <button data-filter=".apps">Apps</button>
+                  <button data-filter=".branding">Branding</button>
+                  <button data-filter=".ux-ui">UX/UI</button>
+                </div>
+              </div>
 
-     <!-- Projects Section  -->
-
-     <div id="project" class="project-section">
-        <div class="container project-container">
-            <div class="tittle">
-                <h2>My Projects</h2>
-            </div>
-            <div class="project-cards">
-                <a target="_blank" href="https://mahfuzahmedzisan.github.io/biker-zone/" class="card">
-                    <img src="images/Project image/Biker Zone.jpg" alt="Project image">
-                    <h4>Biker Zone</h4>
-                    <p>View Project</p>
-                </a>
-                <a target="_blank" href="#" class="card">
-                    <img src="images/Person.jpg" alt="Project image">
-                    <h4>Lorem ipsum dolor sit amet.</h4>
-                    <p>View Project</p>
-                </a>
-                <a target="_blank" href="#" class="card">
-                    <img src="images/Person.jpg" alt="Project image">
-                    <h4>Lorem ipsum dolor sit amet.</h4>
-                    <p>View Project</p>
-                </a>
-            </div>
-            <div class="more"><a href="#">View more projects</a></div>
-        </div>
-     </div>
-
-     <!-- Services Section  -->
-
-     <div id="service" class="service-section">
-        <div class="container service-container">
-            <div class="tittle">
-                <h2>My Services <i class="fa-solid fa-wand-magic-sparkles"></i></h2>
-                <p>Innovative Web Design</p>
-            </div>
-            <div class="service-cards">
-                <div class="card">
-                    <i class="fa-solid fa-layer-group"></i>
-                    <h3>Web Design & Development</h3>
-                    <p>I offer modern, responsive, and user-friendly web design and development services. Whether you need a personal blog or a complex business website, I can create a customized solution tailored to your needs.</p>
-                    <div class="more">
-                        <a href="#">Get started <i class="fa-solid fa-arrow-right"></i></a>
+              <div class="portfolio-box">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="portfolio-item branding">
+                      <div class="image-box">
+                        <img fetchpriority="high" decoding="async" width="1168" height="1000"
+                          src="https://gerold.themejunction.net/wp-content/uploads/2024/05/portfolio-3.jpg"
+                          class="attachment-full size-full wp-post-image" alt=""
+                          srcset="https://gerold.themejunction.net/wp-content/uploads/2024/05/portfolio-3.jpg 1168w, https://gerold.themejunction.net/wp-content/uploads/2024/05/portfolio-3-300x257.jpg 300w, https://gerold.themejunction.net/wp-content/uploads/2024/05/portfolio-3-1024x877.jpg 1024w, https://gerold.themejunction.net/wp-content/uploads/2024/05/portfolio-3-768x658.jpg 768w"
+                          sizes="(max-width: 1168px) 100vw, 1168px" />
+                      </div>
+                      <div class="content-box">
+                        <h3 class="portfolio-title">Deloitte</h3>
+                        <p>Project was about precision and information....</p>
+                        <i class="flaticon-up-right-arrow"></i>
+                        <a href="#" class="portfolio-link"></a>
+                      </div>
                     </div>
-                </div>
-                <div class="card">
-                    <i class="fa-solid fa-pen-nib"></i>
-                    <h3>User Experience (UX) Design</h3>
-                    <p>I focus on creating intuitive and engaging user experiences. By understanding your audience, I design websites that are not only visually appealing but also easy to navigate, ensuring a positive user journey.</p>
-                    <div class="more">
-                        <a href="#">Get started <i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="portfolio-item ux-ui">
+                      <div class="image-box">
+                        <img decoding="async" width="1168" height="1000"
+                          src="https://gerold.themejunction.net/wp-content/uploads/2024/05/portfolio-4.jpg"
+                          class="attachment-full size-full wp-post-image" alt=""
+                          srcset="https://gerold.themejunction.net/wp-content/uploads/2024/05/portfolio-4.jpg 1168w, https://gerold.themejunction.net/wp-content/uploads/2024/05/portfolio-4-300x257.jpg 300w, https://gerold.themejunction.net/wp-content/uploads/2024/05/portfolio-4-1024x877.jpg 1024w, https://gerold.themejunction.net/wp-content/uploads/2024/05/portfolio-4-768x658.jpg 768w"
+                          sizes="(max-width: 1168px) 100vw, 1168px" />
+                      </div>
+                      <div class="content-box">
+                        <h3 class="portfolio-title">New Age</h3>
+                        <p>Project was about precision and information....</p>
+                        <i class="flaticon-up-right-arrow"></i>
+                        <a href="#" class="portfolio-link"></a>
+                      </div>
                     </div>
-                </div>
-                <div class="card">
-                    <i class="fa-solid fa-code"></i>
-                    <h3>Website Redesign</h3>
-                    <p>Is your current website outdated or underperforming? I provide redesign services to give your site a fresh, modern look and improved functionality, aligning with the latest web standards.</p>
-                    <div class="more">
-                        <a href="#">Get started <i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="portfolio-item apps">
+                      <div class="image-box">
+                        <img decoding="async" width="1168" height="1004"
+                          src="https://gerold.themejunction.net/wp-content/uploads/2024/05/portfolio-2.jpg"
+                          class="attachment-full size-full wp-post-image" alt=""
+                          srcset="https://gerold.themejunction.net/wp-content/uploads/2024/05/portfolio-2.jpg 1168w, https://gerold.themejunction.net/wp-content/uploads/2024/05/portfolio-2-300x258.jpg 300w, https://gerold.themejunction.net/wp-content/uploads/2024/05/portfolio-2-1024x880.jpg 1024w, https://gerold.themejunction.net/wp-content/uploads/2024/05/portfolio-2-768x660.jpg 768w"
+                          sizes="(max-width: 1168px) 100vw, 1168px" />
+                      </div>
+
+                      <div class="content-box">
+                        <h3 class="portfolio-title">Sebastian</h3>
+                        <p>Project was about precision and information....</p>
+                        <i class="flaticon-up-right-arrow"></i>
+                        <a href="#" class="portfolio-link"></a>
+                      </div>
                     </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="portfolio-item branding">
+
+                      <div class="image-box">
+                        <img loading="lazy" decoding="async" width="1168" height="1004"
+                          src="https://gerold.themejunction.net/wp-content/uploads/2024/05/portfolio-1.jpg"
+                          class="attachment-full size-full wp-post-image" alt=""
+                          srcset="https://gerold.themejunction.net/wp-content/uploads/2024/05/portfolio-1.jpg 1168w, https://gerold.themejunction.net/wp-content/uploads/2024/05/portfolio-1-300x258.jpg 300w, https://gerold.themejunction.net/wp-content/uploads/2024/05/portfolio-1-1024x880.jpg 1024w, https://gerold.themejunction.net/wp-content/uploads/2024/05/portfolio-1-768x660.jpg 768w"
+                          sizes="(max-width: 1168px) 100vw, 1168px" />
+                      </div>
+                      <div class="content-box">
+                        <h3 class="portfolio-title">Mochnix</h3>
+                        <p>Project was about precision and information....</p>
+                        <i class="flaticon-up-right-arrow"></i>
+                        <a href="#" class="portfolio-link"></a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-     </div>
+      </div>
+    </section>
+
+    <!-- =============== End Portfolio Section =============== -->
+    <!-- =============== Start Resume Section =============== -->
+
+    <section class="resume-section">
+      <div class="container">
+        <div class="row gy-5">
+          <div class="col-md-6">
+            <div class="experience resume-container">
+              <div class="section-header">
+                <h2 data-wow-delay="0.3s" class="section-title wow fadeInUp">
+                  <i aria-hidden="true" class="fa-solid fa-award"></i> My Experience
+                </h2>
+              </div>
+              <div class="elementor-widget-container">
+                <div class="resume-widget">
+                  <div class="resume-item wow fadeInLeft" data-wow-delay="0.3s">
+                    <div class="time">2022 - Present</div>
+                    <h3 class="resume-title">Lead Developer</h3>
+                    <div class="institute">Blockdots, London
+                    </div>
+                  </div>
+                  <div class="resume-item wow fadeInLeft" data-wow-delay="0.4s">
+                    <div class="time">2021 - 2022</div>
+                    <h3 class="resume-title">Full Stack Web Developer</h3>
+                    <div class="institute">Parsons, The New School
+                    </div>
+                  </div>
+                  <div class="resume-item wow fadeInLeft" data-wow-delay="0.5s">
+                    <div class="time">2020 - 2021</div>
+                    <h3 class="resume-title">UI Designer</h3>
+                    <div class="institute"> House of Life, Leeds
+                    </div>
+                  </div>
+                  <div class="resume-item wow fadeInLeft" data-wow-delay="0.6s">
+                    <div class="time">2018 - 2020</div>
+                    <h3 class="resume-title">Junior Graphics Designer</h3>
+                    <div class="institute">Theme Junction, Bursa
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="education resume-container">
+              <div class="section-header">
+                <h2 data-wow-delay="0.4s" class="section-title wow fadeInUp">
+                  <i aria-hidden="true" class="fa-solid fa-graduation-cap"></i> My Education
+                </h2>
+              </div>
+              <div class="elementor-widget-container">
+                <div class="resume-widget">
+                  <div class="resume-item wow fadeInRight" data-wow-delay="0.3s">
+                    <div class="time">2020 - 2023</div>
+                    <h3 class="resume-title">Programming course</h3>
+                    <div class="institute"> Harverd University
+                    </div>
+                  </div>
+                  <div class="resume-item wow fadeInRight" data-wow-delay="0.4s">
+                    <div class="time">2016 - 2020</div>
+                    <h3 class="resume-title">Graphic design course</h3>
+                    <div class="institute">University of Denmark
+                    </div>
+                  </div>
+                  <div class="resume-item wow fadeInRight" data-wow-delay="0.5s">
+                    <div class="time">2012 - 2015</div>
+                    <h3 class="resume-title">Web design course</h3>
+                    <div class="institute"> University of California
+                    </div>
+                  </div>
+                  <div class="resume-item wow fadeInRight" data-wow-delay="0.6s">
+                    <div class="time">2010 - 2011</div>
+                    <h3 class="resume-title">Design &amp; Technology</h3>
+                    <div class="institute"> Parsons, The New School
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- =============== End Resume Section =============== -->
+
+    <!-- =============== Start Skills Section =============== -->
+
+    <section class="skills-section">
+
+      <div class="section-header">
+        <h2 data-wow-delay="0.3s" class="section-title wow fadeInUp">
+          My Skills </h2>
+        <div data-wow-delay="0.4s" class="desc wow fadeInUp">
+          <p>We put your ideas and thus your wishes in the form of a unique web project that inspires you and
+            you customers.</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="elementor-widget-container">
+          <div class="skills-widget d-flex flex-wrap justify-content-center align-items-center">
+            <div class="skill-item  wow fadeInUp" data-wow-delay="0.3s">
+              <div class="skill-inner">
+                <div class="icon-box">
+                  <img decoding="async" src="https://gerold.themejunction.net/wp-content/uploads/2024/05/figma.png"
+                    alt="" />
+                </div>
+                <div class="number">92%</div>
+              </div>
+              <p>Figma</p>
+            </div>
+            <div class="skill-item  wow fadeInUp" data-wow-delay="0.4s">
+              <div class="skill-inner">
+                <div class="icon-box">
+                  <img decoding="async" src="https://gerold.themejunction.net/wp-content/uploads/2024/05/sketch.png"
+                    alt="" />
+                </div>
+                <div class="number">80%</div>
+              </div>
+              <p>Sketch</p>
+            </div>
+            <div class="skill-item  wow fadeInUp" data-wow-delay="0.5s">
+              <div class="skill-inner">
+                <div class="icon-box">
+                  <img decoding="async" src="https://gerold.themejunction.net/wp-content/uploads/2024/05/xd.png"
+                    alt="" />
+                </div>
+                <div class="number">85%</div>
+              </div>
+              <p>XD</p>
+            </div>
+            <div class="skill-item  wow fadeInUp" data-wow-delay="0.6s">
+              <div class="skill-inner">
+                <div class="icon-box">
+                  <img decoding="async" src="https://gerold.themejunction.net/wp-content/uploads/2024/05/wp.png"
+                    alt="" />
+                </div>
+
+                <div class="number">99%</div>
+              </div>
+              <p>WordPress</p>
+            </div>
+            <div class="skill-item  wow fadeInUp" data-wow-delay="0.7s">
+              <div class="skill-inner">
+                <div class="icon-box">
+                  <img decoding="async" src="https://gerold.themejunction.net/wp-content/uploads/2024/05/react.png"
+                    alt="" />
+                </div>
+                <div class="number">89%</div>
+              </div>
+              <p>React</p>
+            </div>
+            <div class="skill-item  wow fadeInUp" data-wow-delay="0.8s">
+              <div class="skill-inner">
+                <div class="icon-box">
+                  <img decoding="async" src="https://gerold.themejunction.net/wp-content/uploads/2024/05/js.png"
+                    alt="" />
+                </div>
+                <div class="number">93%</div>
+              </div>
+              <p>JavaScript</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
 
 
-    <!-- Custom Link -->
-     <script src="js/script.js"></script>
+
+
+  <!-- Bootstrap JavaScript v5.3.0 -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <!-- Custom JavaScript -->
+  <script src="src/js/index.js"></script>
 </body>
+
 </html>
